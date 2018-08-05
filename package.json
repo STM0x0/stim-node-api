@@ -1,0 +1,28 @@
+{
+  "name": "stim-node-api",
+  "version": "1.0.0",
+  "description": "stim-node-api is an Express middleware plugin that exposes URLs for quick development and interfacing with a Stim wallet.",
+  "main": "lib/api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/STM0x0/stim-node-api.git"
+  },
+  "keywords": [
+    "stim",
+    "node",
+    "api"
+  ],
+  "author": "STM0x0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/STM0x0/stim-node-api/issues"
+  },
+  "homepage": "https://github.com/STM0x0/stim-node-api#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "stim-node": "^1.0.2"
+  }
+}
